@@ -1,5 +1,5 @@
-let price = 111
-console.log(
-        "price: ", 
-        typeof(price)
-        )
+let username = "umudvar"
+const DOMAIN = "khalisli"
+
+let email = username + @ + DOMAIN  
+console.log("username  ")
