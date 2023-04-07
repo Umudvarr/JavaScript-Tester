@@ -7,11 +7,16 @@
 
 <body>
     
-    <p id="test" class="test">This is a test post</p>
-    <input type="button" value="Click Here" onclick="Proccess();">
+<input type="button" value="Open Light" onclick="openLight();">
+    <img width="200px" src="img/img open light.png" alt="Light" id="Picture" >
+<input type="button" value="Close Light" onclick="closeLight();">
+    <!-- <img width="auto" src="img/close light.png" alt="Light" id="Picture" > -->
     <script>
-        function Proccess() {
-        document.getElementById('test').innerHTML= 'This is a modified test post';
+    function openLight() {
+        document.getElementById('Picture').src="img/img open light.png"
+    }
+    function closeLight() {
+        document.getElementById('Picture').src="img/close light.png"      
     }
     </script>
 </body>
