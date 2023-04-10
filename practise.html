@@ -10,13 +10,14 @@
 <body>
     <div id="result" ></div>
     <script>
-        let x,y,z;
-        x=15;
-        y=5;
-        z=x*y;
-        document.getElementById("result").innerHTML=z;
-        // x="JavaScript"; sonradan elave edir ve deyisir.
-        // document.getElementById("result").innerHTML=x;
+        let N = 3 // will print weird
+        let N = 8 // will print not weird
+        if(N % 2 == 1){
+            console.log("Weird")
+        }
+        else if(N > 4 && N < 10 && N % 2 == 0){
+            console.log("Not Weird")
+        }
     </script>
 </body>
 </html>
