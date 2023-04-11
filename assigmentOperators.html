@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang=>
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="javascript.js">
+    <title>JavaScript</title>
+</head>
+<body>
+    <div id="result" ></div>
+    <script>
+        let x,y,z,txt1,txt2,textresult;
+         x = 10;
+         y = 20;
+         z = 8;
+         x += 5 // x=x+5 ve burdan sonra "x"-> 15 olaraq davam edir.
+         y -= 12 // y=y-12 y de eyni mentiq ile y=8
+         z *= 4 // z=z*4 z eyni mentiq ile z=32
+         x /= 3 // x=x/3 x=5;
+         y %=3 // y=y%2 qaliq olaraq 8/3->(qaliq=2) ve y=2;
+         z = "Alma sayi "+ x + '-e beraberdir.'; // + stringleri birlesdirir.
+         txt1 = "Umudvar";
+         txt2 = " Habiloglu";
+         textresult = txt1 + txt2; // string ile yazmaq.
+         x == y; // beraber.
+         x === y; // hem deyer hemde turu beraberi sorusur.
+         x != y; // beraber deyil demekdir.
+         x < y, x > y, x <= y, x >= y; // melum mesele boyuk kicik oldugun bildirir.
+         document.getElementById('result').innerHTML = y;  
+    </script>
+</body>
+</html>
