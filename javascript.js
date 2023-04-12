@@ -1,31 +1,20 @@
-let price = 111
-let stringprice = "111"
-let hasPassword = true
-console.log(
-        "price: ",
-        typeof(price)
-)
-console.log(
-        "stringprice = "111"
-        : ",
-        typeof(stringprice)
-)
-console.log(
-        "hasPassword: ",
-        typeof(hasPassword)
-)
-
-// ********** DOM Icinden Oge Secimi **********
-
-// https://developer.mozilla.org/en-US/docs/Web/API/Document/getElementById
-// https://developer.mozilla.org/en-US/docs/Web/API/Document/querySelector
-
-// let h2 = document.getElementsByTagName('h2')
-let title = document.getElementById('title')
-title.innerHTML = "Degisen Bilgi"
-console.log(title.innerHTML)
-
-let link = document.querySelector("#kodluyoruzLink")
-link.innerHTML += " degisti"
-link.style.color = "red"
-link.classList.add('btn')
+let hava = "Firtinali";
+switch(hava) {
+  case "Yagmurlu":
+      document.getElementById("wether").innerHTML = "Semsiyeni yanina almayi unutma";
+      break;
+  case "Gunesli":
+      document.getElementById("wether").innerHTML = "Hafif giyin";
+      break;
+  case "Bulutlu":
+      document.getElementById("wether").innerHTML = "Disari cik";
+      break;
+  case "Karli":
+      document.getElementById("wether").innerHTML = "Kalin giyin";
+      break;
+  case "Firtinali":
+      document.getElementById("wether").innerHTML = "Bir süre disari cikma";
+      break;
+  default:
+      document.getElementById("wether").innerHTML = "Bilinmeyen hava durumu:";
+}
