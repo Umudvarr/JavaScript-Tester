@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Suruculuk Kursu</title>
+</head>
+<body>
+      <div id="driving"></div>
+      <script>
+        let userName = prompt("istifadeci adiniz:")
+        let age = prompt("yasiniz:")
+        if(userName && age >= 18){
+            document.getElementById("driving").innerHTML = "Suruculuk vesiqesi ala bilersiniz";
+        }
+        else if(!userName){
+            document.getElementById("driving").innerHTML = "xahis olunur Istifadeci adinizi yazin";
+        }
+        else if(!(age >= 18)){
+            document.getElementById("driving").innerHTML = "Yasiniz serte uygun deyil" + "<br>" + "teessuf ki size suruculuk vesiqesi vere bilmerik"
+        }
+      </script>
+</body>
+</html>
