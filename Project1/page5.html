@@ -5,6 +5,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Document</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" />
   <link rel="stylesheet" href="page5.css">
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css"
     integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
@@ -16,10 +17,12 @@
   <div class="container-fluid px-0">
     <nav class="navbar navbar-expand-lg navbar-light bg-body-tertiary">
       <div class="container">
-        <a class="navbar-brand" href="#">
+        
+        <a class="navbar-brand" href="#" style="margin-left: 50px;">
           <img src="Logo.png" alt="Logo" width="34" height="34">
-          <img src="Interno.png" alt="Interno" width="150">
+            <img src="Interno.png" alt="" style="margin-left: 5px; height: 25px;">
         </a>
+      
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
           aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
@@ -53,31 +56,6 @@
                 <a class="dropdown-item" href="#">Something else here</a>
               </div>
             </li>
-            <li class="nav-item dropdown active">
-              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink2" data-toggle="dropdown"
-                aria-haspopup="true" aria-expanded="false">
-                Services
-              </a>
-              <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink2">
-                <a class="dropdown-item active" href="#">Action</a>
-                <a class="dropdown-item" href="#">Another action</a>
-                <div class="dropdown-divider"></div>
-                <a class="dropdown-item" href="#">Something else here</a>
-              </div>
-            </li>
-            <li class="nav-item dropdown active">
-              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown"
-                aria-haspopup="true" aria-expanded="false">
-                Services
-              </a>
-              <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                <a class="dropdown-item active" href="#">Action</a>
-                <a class="dropdown-item" href="#">Another action</a>
-                <div class="dropdown-divider"></div>
-                <a class="dropdown-item" href="#">Something else here</a>
-              </div>
-            </li>
-
             <li class="nav-item">
               <a class="nav-link" href="#">
                 <i class="fas fa-search"></i>
@@ -89,7 +67,7 @@
       </div>
   </div>
   </nav>
-  <div class="image-container">
+  <div style="display: flex; align-items: end;" class="image-container">
     <img src="Photo33.jpg" style="width: 10; height: 300;" alt="Background Image">
     <img src="Intro112.png" alt="Foreground Image">
   </div>
@@ -97,42 +75,117 @@
   </div>
   </div>
   </div>
- <div class="card-group">
-  <div class="card text-center" style="width: 10px; height: 30rem; margin-top: 350px; margin-left: 150px; border-radius: 5%; background-color: #F4F0EC;">
-    <img src="" class="card-img-top" alt="">
-    <div class="card-body">
-      <h5 class="card" style="font-family: DM serif; background-color:#F4F0EC; border-color: #F4F0EC;"><b>Design Advice</b></h5>
-      <p class="card-text">
-        <h1 class="card" style=" font-family: DM serif; background-color:#F4F0EC;  border-color: #F4F0EC;"> <strong>$29</strong></h1>
-         <p class="card" style="background-color:#F4F0EC; border-color: #F4F0EC; "><strong> /month</strong></p>
-         <p class="card" style="background-color:#F4F0EC; border-color: #F4F0EC; " >General living space advices</p>
-         <p class="card" style="background-color:#F4F0EC; border-color: #F4F0EC; ">Renovation advices</p>
-         <p class="card" style="background-color:#F4F0EC; border-color: #F4F0EC; ">Interior design advices</p>
-         <p class="card" style="background-color:#F4F0EC; border-color: #F4F0EC; ">Furniture reorganization</p>
-         <p class="card" style="background-color:#F4F0EC; border-color: #F4F0EC; ">Up to 5 hours meetings</p>
+  <div class="card-group">
+    <div class="card text-center"
+      style="width: 33%; height: 90vh; margin-top: 350px; margin-left: 150px; border-radius: 5ch; background-color: #F4F0EC;">
+      <img src="" class="card-img-top" alt="">
+      <div class="card-body">
+        <h5 class="card" style="font-family: DM serif; margin-top: 10px; background-color:#F4F0EC; border-color: #F4F0EC;"><b>Design
+            Advice</b></h5>
+        <p class="card-text">
+        <h1 class="card" style=" font-family: DM serif; background-color:#F4F0EC;  border-color: #F4F0EC;">
+          <strong>$29</strong>
+        </h1>
+        <p class="card" style="background-color:#F4F0EC; border-color: #F4F0EC; "><strong> /month</strong></p>
+        <hr>
+        <p class="card" style="background-color:#F4F0EC; border-color: #F4F0EC;  ">General living space advices</p>
+        <p class="card" style="background-color:#F4F0EC; border-color: #F4F0EC; ">Renovation advices</p>
+        <p class="card" style="background-color:#F4F0EC; border-color: #F4F0EC; ">Interior design advices</p>
+        <p class="card" style="background-color:#F4F0EC; border-color: #F4F0EC; ">Furniture reorganization</p>
+        <p class="card" style="background-color:#F4F0EC; border-color: #F4F0EC; ">Up to 5 hours meetings</p>
         </p>
-      <a href="#" class="btn" style=" background-color: #CDA274; margin-top: 15px;">Get Started</a>
+        <a href="#" class="btn" style=" background-color: #CDA274; margin-top: 15px;">Get Started -></a>
+      </div>
     </div>
-  </div> 
 
-  <div  class="card text-center" style="width: 10rem; height: 30rem;  margin-top: 350px; margin-left: 50px; border-radius: 5%; background-color: #F4F0EC;">
-    <img src="" class="card-img-top" alt="">
-    <div class="card-body">
-      <h5 class="card-title" style="font-family: DM serif;">Complete Interior</h5>
-      <p class="card-text">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ullam aut illo temporibus minima dolor quia, consequuntur corporis, illum, tenetur consequatur alias? Possimus dicta quaerat aliquid officia maiores consectetur. Voluptatibus maiores culpa ipsum architecto commodi ex possimus fuga necessitatibus doloremque repellat, nostrum adipisci, molestiae, consequatur voluptatum iste. Tempora facilis saepe iure.</p>
-      <a href="#" class="btn" style="background-color: #292F36; color: white; margin-top: 15px;">Get Started</a>
+    <div class="card text-center"
+      style="width: 33%; height: 90vh;  margin-top: 350px; margin-left: 50px; border-radius: 5ch; background-color: #F4F0EC;">
+      <img src="" class="card-img-top" alt="">
+      <div class="card-body">
+        <h5 class="card-title" style="font-family: DM serif; margin-top: 10px;"> <b>Complete Interior</b></h5>
+        <h1 class="card"
+          style=" font-family: DM serif; background-color:#F4F0EC; color: rgba(205, 162, 116, 1); border-color: #F4F0EC;">
+          <strong>$39</strong>
+        </h1>
+        <p class="card" style="background-color:#F4F0EC; border-color: #F4F0EC; "><strong> /month</strong></p>
+        <p class="card text-center" style="background-color: rgba(41, 47, 54, 1); color: white; border-radius: 5ch; height: 6%;" >Most Popular Plans</p>
+        <p class="card-text"></p>
+        <p></p>
+        <p>Complete home redesign</p>
+        <p>Interior and exterior works</p>
+        <p>Modular interior planning</p>
+        <p>Kitchen design</p>
+        <p>Garages organization </p>
+        
+        
+        
+        
+           
+        <a href="#" class="btn" style="background-color: #292F36; color: white; margin-top: 15px;">Get Started -></a>
+      </div>
     </div>
-  </div> 
 
-  <div class="card text-center" style="width: 10rem; height: 30rem; margin-top: 350px; margin-left: 50px; margin-right: 150px; border-radius: 5%; background-color: #F4F0EC;">
-    <img src="" class="card-img-top" alt="">
-    <div class="card-body">
-      <h5 class="card-title" style="font-family: DM serif;">Furniture design</h5>
-      <p class="card-text">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ullam aut illo temporibus minima dolor quia, consequuntur corporis, illum, tenetur consequatur alias? Possimus dicta quaerat aliquid officia maiores consectetur. Voluptatibus maiores culpa ipsum architecto commodi ex possimus fuga necessitatibus doloremque repellat, nostrum adipisci, molestiae, consequatur voluptatum iste. Tempora facilis saepe iure.</p>
-      <a href="#" class="btn" style="margin-top: 15px; background-color:#CDA274;">Get Started</a>
-    </div> 
+    <div class="card text-center"
+      style="width: 33%; height: 90vh; margin-top: 350px; margin-left: 50px; margin-right: 150px; border-radius: 5ch; background-color: #F4F0EC;">
+      <img src="" class="card-img-top" alt="">
+      <div class="card-body">
+        <h5 class="card-title" style="font-family: DM serif; margin-top: 10px;"><b>Furniture design</b></h5>
+        <h1 class="card"
+          style=" font-family: DM serif; background-color:#F4F0EC; border-color: #F4F0EC;">
+          <strong>$59</strong>
+        </h1>
+        <p class="card" style="background-color:#F4F0EC; border-color: #F4F0EC; "><strong> /month</strong></p>
+        <hr>
+        <p class="card-text"></p>
+        <p>Furniture for living room</p>
+        <p>Furniture refurbishment</p>
+        <p></p>Sofas and amchairs</p>
+        <p>Tables and chairs</p>
+        <p>Kitchens</p>
+        <p></p>
+        <a href="#" class="btn" style="margin-top: 15px; background-color:#CDA274;">Get Started -></a>
+      </div>
+    </div>
   </div>
-</div>
+  <div class="container" style="margin-top: 100px; margin-left: 150px;">
+    <div class="row">
+      <div class="col">
+        <img src="Logo.png" alt="Logo" width="28" height="28">
+        <img src="Interno.png" alt="" style="margin-left: 5px; height: 23px;">
+        <p style="margin-top: 30px;">It is a long established fact that a reader <br> will be distracted lookings.</p>
+  
+        <i class="fab fa-facebook fa-spin fa-xs" style="margin-right: 25px;"></i>
+        <i class="fab fa-twitter fa-spin fa-xs" style="margin-right: 25px;"></i>
+        <i class="fab fa-linkedin fa-spin fa-xs" style="margin-right: 25px;"></i>
+        <i class="fab fa-instagram fa-spin fa-xs"></i>
+      </div>
+      <div class="row">
+      <div class="col" style="margin-right: 30px;">
+        <h5 style="font-family: DM serif Display;"><b>Pages</b></h5>
+          <p>About Us <br></p>
+          <p>Our Projects <br></p>
+          <p>Our Team <br></p>
+          <p>Contact Us <br></p>
+          <p>Services</p>
+      </div>
+      <div class="col" style="margin-right: 150px;">
+        <h5 style="font-family: DM serif Display;"><b>Services</b></h5>
+          <p>Kitchan<br></p>
+          <p>Living Area <br></p>
+          <p>Bathroom <br></p>
+          <p>Dinning Hall <br></p>
+          <p>Bedroom </p>
+      </div>
+    </div>
+      <div class="col">
+        <h5 style="font-family: DM serif Display;"><b>Contact</b></h5>
+          <p>55 East Birchwood Ave. <br> Brooklyn, New York 11201 <br></p>
+          <p>contact@interno.com<br></p>
+          <p>(123) 456 - 7890 <br></p>
+      </div>
+    </div>
+  </div>
+  
 </body>
 
 </html>
