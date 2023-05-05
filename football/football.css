@@ -1,0 +1,79 @@
+body {
+	font-family: Arial, sans-serif;
+	background-color: #f2f2f2;
+	margin: 0;
+	padding: 0;
+}
+
+header {
+	background-color: #333;
+	color: #fff;
+	padding: 10px;
+}
+
+header h1 {
+	margin: 0;
+}
+
+nav ul {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+
+nav li {
+	display: inline-block;
+	margin-right: 20px;
+}
+
+nav li:last-child {
+	margin-right: 0;
+}
+
+nav a {
+	color: #fff;
+	text-decoration: none;
+}
+
+main {
+	max-width: 800px;
+	margin: 0 auto;
+	padding: 20px;
+}
+
+.featured {
+	margin-bottom: 20px;
+}
+
+.featured article {
+	background-color: #fff;
+	padding: 20px;
+	margin-bottom: 20px;
+}
+
+.featured h3 {
+	margin-top: 0;
+}
+
+.featured a {
+	display: block;
+	margin-top: 10px;
+}
+
+.teams ul,
+.players ul {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+
+.teams li,
+.players li {
+	margin-bottom: 10px;
+}
+
+.teams a,
+.players a {
+	display: block;
+	background-color:  #fff;
+}
