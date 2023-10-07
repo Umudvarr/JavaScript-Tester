@@ -1,17 +1,6 @@
-function calculator(){
-    let eded1 = parseInt(document.getElementById('eded1').value);
-    let eded2 = parseInt(document.getElementById('eded2').value);
-
-    let emeliyyat = document.getElementById('emeliyyat').value;
-
-    if(emeliyyat == '+'){
-        document.getElementById('netice').value = eded1 + eded2;
-    } else if (emeliyyat == '-'){
-        document.getElementById('netice').value = eded1 - eded2;
-    }
-      else if (emeliyyat == '*'){
-        document.getElementById('netice').value = eded1 * eded2;
-    } else{
-        document.getElementById('netice').value = eded1 / eded2;
-    }
+// Bu dərs Massivlar haqqındadır.
+let students = ["Eli", "Veli", "Pirveli", "Gulmeli", 4, 5];
+for(var i = 0; i < students.length; i++){
+document.write(students[i]);
+document.write("<br>");
 }
